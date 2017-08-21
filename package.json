@@ -1,0 +1,28 @@
+{
+  "name": "unity-bindings",
+  "version": "0.0.1",
+  "description": "Core interface for a Binding--generally a safe reference to a listener binding that can be queried 'isBound' and used to unbind the listener.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatthat/unity-bindings.git"
+  },
+  "files": [
+    "index.js",
+    "scripts",
+    "src"
+  ],
+  "author": "larrykirschner@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beatthat/unity-bindings/issues"
+  },
+  "homepage": "https://github.com/beatthat/unity-bindings",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "ncp": "^2.0.0",
+    "mkdirp": "^0.5.1"
+  }
+}
