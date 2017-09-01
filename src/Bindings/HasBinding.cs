@@ -1,5 +1,5 @@
 
-namespace BeatThat.App
+namespace BeatThat
 {
 	public interface HasBinding
 	{
