@@ -1,6 +1,9 @@
 
 namespace BeatThat
 {
+	/// <summary>
+	/// Interface for any component that shares its Binding property.
+	/// </summary>
 	public interface HasBinding
 	{
 		/// <summary>
