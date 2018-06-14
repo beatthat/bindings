@@ -1,9 +1,10 @@
-using UnityEngine.Events;
 using System;
+using BeatThat.Pools;
+using UnityEngine.Events;
 
-namespace BeatThat
+namespace BeatThat.Bindings
 {
-	public class UnityEventBinding : Binding, IDisposable, Poolable
+    public class UnityEventBinding : Binding, IDisposable, Poolable
 	{
 //		public UnityEventBinding(UnityEvent evt, UnityAction callback)
 //		{
@@ -114,3 +115,5 @@ namespace BeatThat
 	}
 
 }
+
+

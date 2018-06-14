@@ -1,10 +1,9 @@
-
-namespace BeatThat
+namespace BeatThat.Bindings
 {
-	/// <summary>
-	/// Interface for any component that shares its Binding property.
-	/// </summary>
-	public interface HasBinding
+    /// <summary>
+    /// Interface for any component that shares its Binding property.
+    /// </summary>
+    public interface HasBinding
 	{
 		/// <summary>
 		/// Gets an always safe (as opposed to a unity component that might be destroyed) handle for unbinding/cleanup
@@ -13,3 +12,4 @@ namespace BeatThat
 		Binding binding { get; }
 	}
 }
+
