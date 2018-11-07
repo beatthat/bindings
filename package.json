@@ -1,7 +1,7 @@
 {
   "name": "bindings",
   "scope": "beatthat",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a Binding is a safe reference to a listener binding that can be queried 'isBound' and used to unbind the listener.",
   "main": "index.js",
   "repository": {
