@@ -14,8 +14,6 @@ namespace BeatThat.Bindings
     /// </summary>
     public class DisposableBinding : Binding, IDisposable, Poolable
 	{
-		
-
 		#region Poolable implementation
 		public void OnReturnedToPool ()
 		{
